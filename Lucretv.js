@@ -31,6 +31,11 @@ $(document).ready(function(){
             scrollTop: 0
         }, Options = 2000);
     });
+    AOS.init({
+        easing: 'ease',
+        duration: 1800,
+        once: true
+    });
 });
 
 const swiper = new Swiper('.swiper', {
