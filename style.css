@@ -375,13 +375,11 @@ footer{
     font-size: 20px;
     color: #fff;
 }
-.add h6{
+.add h6 img{
     position: relative;
-    color: var(--white);
-    font-size: 20px;
-    top: -8px;
-    font-weight: 600;
-    font-family: sans-serif;
+    width: 200px;
+    height: 250px;
+    top: -18px;
 }
 .social-links{
     display: flex;
