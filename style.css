@@ -98,13 +98,13 @@ body{
     width: 100%;
 }
 .navbar-brand{
-    color: #fff;
-    letter-spacing: .3rem;
-    font-size: 2rem;
+    position: relative;
+    left: -20px;
     transition: var(--transition);
 }
-.navbar-brand span{
-    font-weight: 700;
+.navbar-brand span img{
+    width: 170px;
+    height: 150px;
 }
 
 .navbar-toggler-open, .navbar-toggler-close{
@@ -700,7 +700,8 @@ footer{
         width: 540px;
     }
     .swiper-slide img{
-        height: 600px;
+        height: 900px;
+        width: 100%;
     }
    
     .under h3{
