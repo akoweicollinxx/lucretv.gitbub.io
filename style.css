@@ -375,9 +375,9 @@ footer{
     font-size: 20px;
     color: #fff;
 }
-.add h3{
+.footer-right .add h3{
     position: relative;
-    color: #fff;
+    color: white;
     font-size: 20px;
     top: -8px;
     font-weight: 600;
