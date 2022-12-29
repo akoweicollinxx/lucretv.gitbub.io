@@ -99,7 +99,7 @@ body{
 }
 .navbar-brand{
     position: relative;
-    left: -20px;
+    left: -30px;
     transition: var(--transition);
 }
 .navbar-brand span img{
@@ -374,7 +374,10 @@ footer{
 .add h3{
     position: relative;
     color: #fff;
+    font-size: 20px;
     top: -8px;
+    font-weight: 600;
+    font-family: sans-serif;
 }
 .social-links{
     display: flex;
